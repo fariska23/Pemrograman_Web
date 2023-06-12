@@ -1,0 +1,109 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5F9EA0;
+  position: relative;
+  top: 10px;
+  bottom: 30px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: algerian;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  
+}
+
+.active {
+  background-color: #34675C;
+}
+
+h2{
+  font-size: 50px;
+  font-family: algerian;
+}
+.posisi{
+  position: relative;
+  bottom: 20px;
+}
+
+tbody tr td {
+  font-size: 18px;
+}
+
+thead tr th {
+  font-size: 20px;
+}
+
+.box-keranjang{
+  float: right;
+  position: relative;
+  bottom: -10px;
+}
+.posisi{
+  position: relative;
+  top: 0px;
+}
+.pp{
+  position: relative;
+  left: 600px;
+  top: 10px;
+}
+.tombol {
+  color: #fff;
+  border-color: #357ebd;
+  position: relative;
+  left: 0px;
+  top: 10px;
+}
+.tombol:hover,
+.tombol:focus,
+.tombol:active,
+.tombol.active,
+.open .dropdown-toggle.tombol {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+.tombol:active,
+.tombol.active,
+.open .dropdown-toggle.tombol {
+  background-image: none;
+}
+.tombol.disabled,
+.tombol[disabled],
+fieldset[disabled] .tombol,
+.tombol.disabled:hover,
+.tombol[disabled]:hover,
+fieldset[disabled] .tombol:hover,
+.tombol.disabled:focus,
+.tombol[disabled]:focus,
+fieldset[disabled] .tombol:focus,
+.tombol.disabled:active,
+.tombol[disabled]:active,
+fieldset[disabled] .tombol:active,
+.tombol.disabled.active,
+.tombol[disabled].active,
+fieldset[disabled] .tombol.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.tombol .badge {
+  color: #428bca;
+  background-color: #fff;
+}
